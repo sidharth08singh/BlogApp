@@ -8,7 +8,7 @@
 </head>
 <body>
 <p> Jullay! </p>
-<form method="post" id="loginForm" action="/BlogApp/Controller">
+<form method="post" id="loginForm" action="/BlogApp/Controller?action=dosignin">
 	<input type = "hidden" name="validationMessageBox" id="validationMessageBox"/><br/><br/>
 	Email: <input type="textbox" name="email"/></br>
 	Password: <input type="textbox" name="password"/></br>

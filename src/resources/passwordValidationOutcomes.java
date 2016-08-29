@@ -1,5 +1,5 @@
 package resources;
 
 public enum passwordValidationOutcomes {
-	PASS, NULL, LENGTH_ERROR, FORMAT_ERROR
+	PASS, NULL, LENGTH_ERROR, FORMAT_ERROR, SPACE_ERROR
 }
